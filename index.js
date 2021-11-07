@@ -95,8 +95,6 @@ paginator.addEventListener("click", (event) => {
   }
 });
 
-function getTestPage() {}
-
 // page -> 電影資料
 function getMoviesByPage(page) {
   const data = filteredMovies.length ? filteredMovies : movies;
